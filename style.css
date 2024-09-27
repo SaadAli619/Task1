@@ -1,0 +1,88 @@
+/* Position carousel container and buttons */
+#carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 1000px;
+    margin: auto;
+    transition: transform 0.75s cubic-bezier(0.25, 0.1, 0.25, 1); 
+    will-change: transform;
+  }
+  
+  /* Models container that holds the 3D models */
+  #models-container {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    overflow: hidden;
+    transition: opacity 0.3s ease-in-out;
+    
+  }
+  
+  .model-container {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin: 5px;
+    cursor: pointer;
+    
+  }
+  
+  /* Styling for the carousel buttons */
+  .carousel-btn {
+    background: none;
+    border: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    padding: 10px;
+    z-index: 10;
+    font-size: 0; /* Hide the button text */
+  }
+  
+  #prev-btn {
+    left: -40px;
+  }
+  
+  #next-btn {
+    right: -40px;
+  }
+  
+  /* Styling for the SVG icons */
+  .carousel-btn svg {
+    width: 40px;
+    height: 40px;
+    stroke: #333; /* Icon color */
+    transition: stroke 0.3s ease;
+  }
+  
+  .carousel-btn:hover svg {
+    stroke: #000; /* Icon hover color */
+  }
+  
+  /* Modal styling */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    text-align: center;
+  }
+  
+  
+  

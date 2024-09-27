@@ -1,0 +1,8 @@
+Model Information:
+* title:	"Pestilence" Retro Sci-Fi Handgun
+* source:	https://sketchfab.com/3d-models/pestilence-retro-sci-fi-handgun-08dfd6795f0c460aba78a653d12ffd1f
+* author:	Rookster (https://sketchfab.com/Rookster)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works
